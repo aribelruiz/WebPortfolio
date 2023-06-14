@@ -15,7 +15,7 @@ const Nav = () => {
     }, [location])
     
     return (
-        <div className='navbar bg-light' id={expandNavbar? "open" : "close"}>
+        <div className='navbar' id={expandNavbar? "open" : "close"}>
             <div className='nav-header'>
                 <a class='navbar-brand' href='/'>
                     <img className='brand-img' src={logo} alt='aribel-logo'></img>
