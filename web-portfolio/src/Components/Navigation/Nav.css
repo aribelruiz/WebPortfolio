@@ -1,0 +1,125 @@
+.navbar {
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+.nav-header {
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    max-width: 20%;
+    height: 100%;
+}
+
+.navbar-brand {
+    /* background-color: green; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px;
+}
+
+.brand-img {
+    height: 100%;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(176, 176, 176);
+}
+
+#toggle-btn {
+    height: 100%;
+    border-radius: 0px;
+    border: none;
+}
+
+.nav-body {
+    /* background-color: red; */
+    width: fit-content;
+    max-width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item{
+    /* background-color: green; */
+    color: black;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.nav-item:hover {
+    background-color: gray;   
+    color: white; 
+    text-decoration: underline;
+}
+.nav-item:active {
+    background-color: gray;
+}
+
+.contact-btn {
+    background-color: #208ae1;
+    color: white;
+}
+.contact-btn:hover {
+    background-color:  #16629f;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 900px) {
+   .navbar {
+        height: 70px;
+   }
+}
+
+@media only screen and (max-width: 599px) {
+    #open {
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .nav-header {
+        /* background-color: red; */
+        min-width: 100%;
+        height: 70px;
+        justify-content: flex-end;
+    }
+    
+    #open .nav-body {
+        /* background-color: green; */
+        min-width: 100vw;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 70px;
+    }
+    
+    #open .nav-item {
+        width: 95%;
+        height: fit-content;
+        justify-content: center;
+    }
+
+    #close .nav-body{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .navbar-toggler {
+        display: none;
+    }
+}
