@@ -1,0 +1,89 @@
+.home-div {
+    /* background-color: green; */
+    height: 90vh;
+}
+
+.splash-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 10% 5% 10%;
+}
+
+.splash-txt {
+    /* background-color: orange; */
+    width: 50%;
+    height: 70%;
+    text-align: left;
+    padding: 10% 5% 10% 10%;
+}
+
+.heading {
+    font-weight: bold;
+}
+
+.subheading {
+    font-weight: normal;
+}
+
+.txt-body {
+    font-weight: lighter;
+}
+
+.projects-btn{
+    background-color: #208ae1;
+    color: white;
+    min-width: 70%;
+    width: fit-content;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 5%;
+}
+.projects-btn:hover{
+    background-color: #155e99;
+    text-decoration: underline;
+}
+
+.splash-img {
+    /* background-color: aqua; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-img {
+    width: 100%;
+    border-width: 2px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (max-width: 599px) {
+
+    .splash-page {
+        /* background-color: orange; */
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .splash-img {
+        /* background-color: green; */
+        width: 70%;
+    }
+
+    .splash-txt {
+        /* background-color: green; */
+        padding: 0px;
+        margin-top: 2%;
+        width: 80%;
+    }
+
+    .projects-btn {
+        width: 100%;
+    }
+}
