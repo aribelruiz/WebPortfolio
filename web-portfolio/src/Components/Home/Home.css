@@ -1,6 +1,6 @@
 .home-div {
     /* background-color: green; */
-    height: 90vh;
+    min-height: 100vh;
 }
 
 .splash-page {
@@ -8,6 +8,32 @@
     justify-content: center;
     align-items: center;
     padding: 5% 10% 5% 10%;
+}
+ .about-me {
+    background-color: rgb(205, 205, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    height: fit-content;
+ }
+
+ .about-img {
+    width: 40%;
+ }
+
+
+.about-txt {
+    background-color: rgb(252, 252, 252);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 5%;
+    margin: 2%;
+    border-radius: 10px;
 }
 
 .splash-txt {
@@ -27,7 +53,7 @@
 }
 
 .txt-body {
-    font-weight: lighter;
+    font-weight: 370;
 }
 
 .projects-btn{
@@ -41,16 +67,16 @@
     align-items: center;
     text-decoration: none;
     margin-top: 5%;
+    column-gap: 10px;
 }
 .projects-btn:hover{
     background-color: #155e99;
     text-decoration: underline;
 }
 
-.splash-img {
+.splash-img{
     /* background-color: aqua; */
     width: 50%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,16 +97,27 @@
         padding: 5%;
     }
 
-    .splash-img {
-        /* background-color: green; */
-        width: 70%;
+    .about-me {
+        flex-direction: column;
+        padding: 10%;
     }
 
-    .splash-txt {
+    .splash-img, .about-img {
+        /* background-color: green; */
+        width: 65%;
+        margin-top: 5%;
+    }
+
+    .splash-txt, .about-txt {
         /* background-color: green; */
         padding: 0px;
-        margin-top: 2%;
+        margin-top: 8%;
         width: 80%;
+    }
+
+    .about-txt {
+        padding: 4%;
+        height: fit-content;
     }
 
     .projects-btn {

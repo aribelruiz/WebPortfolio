@@ -7,11 +7,11 @@ import reportWebVitals from './reportWebVitals';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faFolder } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 
 // Adding icons to global library
-library.add(fab, faEnvelope, faGithub, faLinkedin);
+library.add(fab, faEnvelope, faGithub, faLinkedin, faFolder);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -28,6 +28,12 @@ const Nav = () => {
                 <Link className='nav-item' to='/'> 
                     <a className='nav-link'> Home </a>
                 </Link>
+                <div className='nav-item'>
+                    <a className='nav-link' href='#about-me'> About Me </a>
+                </div>
+                <div className='nav-item'>
+                    <a className='nav-link' href='#skills'> Skills </a>
+                </div>
                 <Link className='nav-item' to='/projects'> 
                     <a className='nav-link'> Projects </a> 
                 </Link>
