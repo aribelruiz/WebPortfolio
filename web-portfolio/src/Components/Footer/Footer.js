@@ -12,7 +12,7 @@ const Footer = () => {
                 <a href='https://github.com/aribelruiz'>
                   <FontAwesomeIcon className='footer-icon' icon={["fab", "github"]}/>
                 </a>
-                <a href='https://github.com/aribelruiz'>
+                <a href='mailto: aribelr1@gmail.com'>
                   <FontAwesomeIcon className='footer-icon' icon={["fas", "envelope"]}/>
                 </a>
             </div>

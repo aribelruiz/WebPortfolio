@@ -17,19 +17,27 @@ const Home = () => {
                     <h1 className='heading'>Hi, I'm Aribel!</h1>
                     <h3  className='subheading'>Software Developer</h3>
                     <h5  className='txt-body'>
-                        #WomenInSTEM with a passion for software engineering, front-end development, and learning.
+                        #WomanInSTEM with a passion for software engineering, front-end development, and education.
                     </h5>
                     <Link className='projects-btn' to='/projects'>
                         <a> My Projects </a>
                         <FontAwesomeIcon className='btn-icon' icon={['fas', 'folder']}/>
                     </Link>
+                    <div className='splash-socials'>
+                        <a href='https://www.linkedin.com/in/aribel-ruiz/'>
+                        <FontAwesomeIcon className='social-icon' icon={["fab", "linkedin"]}/>
+                        </a>
+                        <a href='https://github.com/aribelruiz'>
+                        <FontAwesomeIcon className='social-icon' icon={["fab", "github"]}/>
+                        </a>
+                    </div>
                 </div>
                 <div className='splash-img'>
                     <img id='logo-img' src={profile}></img>
                 </div>
             </div>
-            <hr></hr>
-            <div className='home-div about-me' id='about-me'>
+            <hr id='about-me'></hr>
+            <div className='home-div about-me'>
                 <div className='about-img'>
                     <img id='logo-img' src={profile2}></img>
                 </div>
@@ -40,12 +48,12 @@ const Home = () => {
                     <h6 className='txt-body'> Currently seeking employment with an interest in software engineering and application/front-end development. </h6>
                 </div>
             </div>
-            <hr></hr>
-            <div className='home-div skills' id='skills'>
+            <hr id='skills'></hr>
+            <div className='home-div skills' >
                 <h1>Skills</h1>
             </div>
-            <hr></hr>
-            <div className='home-div projects' id='projects'>
+            <hr id='projects'></hr>
+            <div className='home-div projects'>
                 <h1>Projects</h1>
             </div>
         </div>

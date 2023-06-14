@@ -10,7 +10,7 @@
     padding: 5% 10% 5% 10%;
 }
  .about-me {
-    background-color: rgb(205, 205, 205);
+    background-color: rgb(198, 198, 198);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,10 +82,26 @@
     align-items: center;
 }
 
+.splash-socials {
+    /* background-color: green; */
+    margin-top: 2%;
+}
+
+.social-icon {
+    color: black;
+    margin: 3%;
+    font-size: xx-large;
+}
+.social-icon:hover {
+    color: #155e99;
+    /* color: #208ae1; */
+
+}
+
 #logo-img {
     width: 100%;
     border-width: 2px;
-    border-radius: 10px;
+    border-radius: 40px;
     box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.4);
 }
 
