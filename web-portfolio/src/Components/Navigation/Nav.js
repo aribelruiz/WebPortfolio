@@ -28,7 +28,7 @@ const Nav = () => {
                 <Link className='nav-item' to='/'> 
                     <a className='nav-link'> Home </a>
                 </Link>
-                <div className='nav-item'>
+                <div className='nav-item' href="#about-me">
                     <a className='nav-link' href='#about-me'> About Me </a>
                 </div>
                 <div className='nav-item'>
@@ -37,7 +37,7 @@ const Nav = () => {
                 <Link className='nav-item' to='/projects'> 
                     <a className='nav-link'> Projects </a> 
                 </Link>
-                <Link className='nav-item contact-btn' to='/contact'> 
+                <Link className='nav-link contact-btn' to='/contact'> 
                     <a> Contact Me </a>
                 </Link>
             </div>

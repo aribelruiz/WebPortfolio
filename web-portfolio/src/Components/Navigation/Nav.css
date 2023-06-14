@@ -59,10 +59,12 @@
 .nav-item{
     /* background-color: green; */
     color: black;
+    min-width: 100px;
     max-height: 100%;
     margin: 10px;
-    padding: 20px;
+    padding: 0px;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 .nav-item:hover {
@@ -72,6 +74,12 @@
 }
 .nav-item:active {
     background-color: gray;
+}
+
+.nav-link {
+    /* background-color: green; */
+    max-height: 100%;
+    padding: 20px;
 }
 
 .contact-btn {
@@ -113,6 +121,11 @@
     }
     
     #open .nav-item {
+        min-width: 95%;
+        justify-content: center;
+    }
+
+    #open .nav-link {
         width: 95%;
         height: fit-content;
         justify-content: center;
