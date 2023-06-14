@@ -1,5 +1,4 @@
 .navbar {
-    background-color: white;
     width: 100%;
     height: 70px;
     display: flex;
@@ -19,6 +18,7 @@
     width: fit-content;
     max-width: 20%;
     height: 100%;
+    margin-left: 20px;
 }
 
 .navbar-brand {
@@ -52,6 +52,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 20px;
 }
 
 .nav-item{
@@ -94,6 +95,7 @@
         min-width: 100%;
         height: 70px;
         justify-content: flex-end;
+        margin: 0px;
     }
     
     #open .nav-body {
@@ -102,6 +104,7 @@
         flex-direction: column;
         justify-content: flex-start;
         margin-top: 70px;
+        margin-right: 0px;
     }
     
     #open .nav-item {
