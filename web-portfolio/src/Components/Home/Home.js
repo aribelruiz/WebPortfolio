@@ -4,6 +4,7 @@ import './Home.css';
 //Import sub sections
 import Splash from './HomeSections/Splash';
 import AboutMe from './HomeSections/AboutMe';
+import Skills from './HomeSections/Skills';
 
 const Home = () => {
     return (
@@ -12,9 +13,7 @@ const Home = () => {
             <hr id='about-me'></hr>
             <AboutMe/>
             <hr id='skills'></hr>
-            <div className='home-div skills' >
-                <h1>Skills</h1>
-            </div>
+            <Skills/>
             <hr id='projects'></hr>
             <div className='home-div projects'>
                 <h1>Projects</h1>
