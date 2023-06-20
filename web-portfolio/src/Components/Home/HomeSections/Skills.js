@@ -28,8 +28,8 @@ const Skills = () => {
         <>
             <div className='home-div skills' >
                 <div className='skills-header'>
-                    <h1 className='heading'> Skills </h1>
-                    <h5 className='subheading'>My Top Technical Skills</h5>
+                    <h1 className='heading'> My Top Skills </h1>
+                    {/* <h5 className='subheading'>My Top Technical Skills</h5> */}
                 </div>
                 <div className='skills-body'>
                     <div className='skills-item'>
