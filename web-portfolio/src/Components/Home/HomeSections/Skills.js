@@ -28,7 +28,7 @@ const Skills = () => {
         <>
             <div className='home-div skills' >
                 <div className='skills-header'>
-                    <h1 className='heading'> My Top Skills </h1>
+                    <h1 className='subheading'> My Top Skills </h1>
                     {/* <h5 className='subheading'>My Top Technical Skills</h5> */}
                 </div>
                 <div className='skills-body'>
@@ -77,7 +77,7 @@ const Skills = () => {
                         <div className='skills-txt'>
                             <div className='skills-item-header'>
                                 <FontAwesomeIcon className='skills-icon' icon={['fas', 'file-code']}/>
-                                <h2 style={{fontWeight: "600"}} className='heading'> Software Development </h2>
+                                <h2 style={{fontWeight: "600"}} className='subheading'> Software Development </h2>
                             </div>
                             {/* <br></br> */}
                             <div className='skills-item-body'>                 
