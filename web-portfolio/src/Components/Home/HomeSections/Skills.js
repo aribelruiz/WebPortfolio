@@ -33,48 +33,43 @@ const Skills = () => {
                 </div>
                 <div className='skills-body'>
                     <div className='skills-item'>
-                        <div className='skills-txt'>
-                            <div className='skills-item-header'>
-                                <FontAwesomeIcon className='skills-icon' icon={['fas', 'laptop-code']}/>
-                                <h2 className='subheading'> Front-End </h2>
-                            </div>
-                            <br></br>
-                            <div className='skills-item-body'>                 
-                                <h5 style={{textAlign:'left'}}>Languages</h5>
-                                 <ul className='skills-list list-bg txt-body'>
-                                    <div className='skill skill-icon'> 
-                                        <img className='icon-img' src={jsImg}></img>
-                                        <h6 className='subheading'> JavaScript </h6>
-                                    </div>
-                                    <div className='skill skill-icon'> 
-                                        <img className='icon-img' src={tsImg}></img>
-                                        <h6 className='subheading'> TypeScript </h6>
-                                    </div>
-                                    <div className='skill skill-icon'> 
-                                        <img className='icon-img' src={htmlImg}></img>
-                                        <h6 className='subheading'> HTML </h6>
-                                    </div>
-                                    <div className='skill skill-icon'> 
-                                        <img className='icon-img' src={cssImg}></img>
-                                        <h6 className='subheading'> CSS </h6>
-                                    </div>
-                                </ul>
-                                <h5 style={{textAlign:'left'}}>Frameworks & Tools</h5>
-                                <ul className='skills-list list-bg txt-body'>
-                                    <div className='skill skill-icon'> 
-                                        <img className='icon-img' src={reactImg}></img>
-                                        <h6 className='subheading'> React </h6>
-                                    </div>
-                                    <div className='skill skill-icon'> 
-                                        <img className='icon-img' src={bootstrapImg}></img>
-                                        <h6 className='subheading'> Bootstrap </h6>
-                                    </div>
-                                    <div className='skill skill-icon'> 
-                                        <img className='icon-img' src={figmaImg}></img>
-                                        <h6 className='subheading'> Figma </h6>
-                                    </div>
-                                </ul>
-                            </div>
+                        <div className='skills-item-header'>
+                            <FontAwesomeIcon className='skills-icon' icon={['fas', 'laptop-code']}/>
+                            <h2 style={{fontWeight: "600"}} className='subheading'> Front-End </h2>
+                        </div>
+                        {/* <br></br> */}
+                        <div className='skills-item-body'>                 
+                            {/* <h5 style={{textAlign:'left'}}>Languages</h5> */}
+                            <ul className='skills-list'>
+                                <div className='skill skill-icon'> 
+                                    <img className='icon-img' src={jsImg}></img>
+                                    <h6 className='subheading'> JavaScript </h6>
+                                </div>
+                                <div className='skill skill-icon'> 
+                                    <img className='icon-img' src={tsImg}></img>
+                                    <h6 className='subheading'> TypeScript </h6>
+                                </div>
+                                <div className='skill skill-icon'> 
+                                    <img className='icon-img' src={htmlImg}></img>
+                                    <h6 className='subheading'> HTML </h6>
+                                </div>
+                                <div className='skill skill-icon'> 
+                                    <img className='icon-img' src={cssImg}></img>
+                                    <h6 className='subheading'> CSS </h6>
+                                </div>
+                                <div className='skill skill-icon'> 
+                                    <img className='icon-img' src={reactImg}></img>
+                                    <h6 className='subheading'> React </h6>
+                                </div>
+                                <div className='skill skill-icon'> 
+                                    <img className='icon-img' src={bootstrapImg}></img>
+                                    <h6 className='subheading'> Bootstrap </h6>
+                                </div>
+                                <div className='skill skill-icon'> 
+                                    <img className='icon-img' src={figmaImg}></img>
+                                    <h6 className='subheading'> Figma </h6>
+                                </div>
+                            </ul>
                         </div>
                     </div>
                  
@@ -82,12 +77,12 @@ const Skills = () => {
                         <div className='skills-txt'>
                             <div className='skills-item-header'>
                                 <FontAwesomeIcon className='skills-icon' icon={['fas', 'file-code']}/>
-                                <h2 className='subheading'> Programming </h2>
+                                <h2 style={{fontWeight: "600"}} className='heading'> Software Development </h2>
                             </div>
-                            <br></br>
+                            {/* <br></br> */}
                             <div className='skills-item-body'>                 
-                                <h5 style={{textAlign:'left'}}>Languages</h5>
-                                 <ul className='skills-list list-bg txt-body'>
+                                {/* <h5 style={{textAlign:'left'}}>Languages</h5> */}
+                                 <ul className='skills-list txt-body'>
                                     <div className='skill skill-icon'> 
                                         <img className='icon-img' src={javaImg}></img>
                                         <h6 className='subheading'> Java </h6>
@@ -100,9 +95,6 @@ const Skills = () => {
                                         <img className='icon-img' src={cplusImg}></img>
                                         <h6 className='subheading'> C++ </h6>
                                     </div>
-                                </ul>
-                                <h5 style={{textAlign:'left'}}>Technologies & Tools</h5>
-                                <ul className='skills-list list-bg txt-body'>
                                     <div className='skill skill-icon'> 
                                         <img className='icon-img' src={gitImg}></img>
                                         <h6 className='subheading'> GitHub </h6>
