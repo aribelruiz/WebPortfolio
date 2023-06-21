@@ -5,6 +5,8 @@ import './Home.css';
 import Splash from './HomeSections/Splash';
 import AboutMe from './HomeSections/About/AboutMe';
 import Skills from './HomeSections/Skills/Skills';
+import ProjectsHome from './HomeSections/ProjectsHome';
+
 
 const Home = () => {
     return (
@@ -15,9 +17,7 @@ const Home = () => {
             <hr id='skills'></hr>
             <Skills/>
             <hr id='projects'></hr>
-            <div className='home-div projects'>
-                <h1>Projects</h1>
-            </div>
+            <ProjectsHome/>
         </div>
     );
 }

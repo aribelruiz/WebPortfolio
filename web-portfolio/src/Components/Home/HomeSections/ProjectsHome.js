@@ -9,7 +9,7 @@ import lldImg from "../../../Images/Projects/LLDHome.png";
 const Projects = () => {
     return (
         <div className="home-div projects">
-            <h1 className="subheading">My Personal Projects</h1>
+            <h1 className="heading header-underline">My Personal Projects</h1>
             <div className="project-list">
                 <ProjectCard name={"Brain Beats V4"} image={bbImg}/>
                 <ProjectCard name={"Epilapse"} image={epilapseImg}/>
