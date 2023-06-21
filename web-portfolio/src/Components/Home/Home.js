@@ -3,8 +3,8 @@ import './Home.css';
 
 //Import sub sections
 import Splash from './HomeSections/Splash';
-import AboutMe from './HomeSections/AboutMe';
-import Skills from './HomeSections/Skills';
+import AboutMe from './HomeSections/About/AboutMe';
+import Skills from './HomeSections/Skills/Skills';
 
 const Home = () => {
     return (

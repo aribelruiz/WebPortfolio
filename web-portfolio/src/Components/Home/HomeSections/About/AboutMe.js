@@ -1,5 +1,5 @@
 import React from 'react';
-import profile2 from '../../../Images/aribelProfile2.jpg';
+import profile2 from '../../../../Images/aribelProfile2.jpg';
 
 const AboutMe = () => {
     return (
