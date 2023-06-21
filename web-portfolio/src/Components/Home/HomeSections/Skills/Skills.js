@@ -24,12 +24,11 @@ const Skills = () => {
     return (
         <>
             <div className='home-div skills' >
-                <div className='skills-header'>
-                    <h1 className='heading'> Skills </h1>
-                    <h1 className='subheading'> - </h1>
-                    <h1 className='subheading'> My Top Technical Skills</h1>
+                <div className='skills-header skills-underline'>
+                    {/* <h1 className='heading'> Skills </h1>
+                    <h1 className='subheading'> - </h1> */}
+                    <h1 className='heading header-underline'> Technical Skills</h1>
                 </div>
-                <br></br>
                 <div className='skills-body'>
                     <div className='skills-item'>
                         <div className='skills-item-header'>
