@@ -18,9 +18,9 @@ const Projects = () => {
                 </div>
                 <div className="projects-body">
                     <div className="project-list">
-                        <ProjectCard name={"Brain Beats V4"} image={bbImg}/>
-                        <ProjectCard name={"Epilapse"} image={epilapseImg}/>
-                        <ProjectCard name={"Long Live Decay"} image={lldImg}/>
+                        <ProjectCard name={"Brain Beats V4"} image={bbImg} tagline={"Music Sharing Platform"}/>
+                        <ProjectCard name={"Epilapse"} image={epilapseImg} tagline={"Seizure Tracking Application"}/>
+                        <ProjectCard name={"Long Live Decay"} image={lldImg} tagline={"Action/Adventure Video Game"}/>
                     </div>
                 </div>  
                 <div className="projects-footer">
