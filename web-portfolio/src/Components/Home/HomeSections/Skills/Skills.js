@@ -65,7 +65,7 @@ const Skills = () => {
                                 </div>
                                 <div className='skill skill-icon'> 
                                     <img className='icon-img' src={figmaImg}></img>
-                                    <h6 className='subheading'> Figma </h6>
+                                    <h5 className='subheading'> Figma </h5>
                                 </div>
                             </ul>
                         </div>
