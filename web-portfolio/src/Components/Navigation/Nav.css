@@ -136,11 +136,13 @@
         width: 95%;
         height: fit-content;
         justify-content: center;
+        text-decoration: underline;
     }
 
     #close .nav-body{
         display: none;
     }
+
 }
 
 @media only screen and (min-width: 599px) {
