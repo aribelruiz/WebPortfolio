@@ -36,6 +36,10 @@
     padding: 10px;
 }
 
+.project-card-btn {
+    border-radius: 15px;
+}
+
 .project-card {
     background-color: white;
     color: black;
@@ -44,7 +48,7 @@
     width: 380px;
     height: 360px;
     padding-bottom: 10px;
-    margin: 1%;
+    /* margin: 1%; */
 }
 .project-card:hover {
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
@@ -108,6 +112,71 @@
     border-bottom: 2px solid #a1a1a1;
 }
 
+/* Project Modal CSS */
+
+.modal-dialog {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-content {
+    width: fit-content;
+    min-width: 75vw;
+}
+
+.modal-container-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.modal-img-div {
+    /* background-color: red; */
+    width: 70%;
+    padding: 10px;
+}
+
+.modal-img{
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.modal-txt {
+    /* background-color: green; */
+    width: 40%;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 10px 10px 20px;
+}
+
+.mobile-description {
+    display: none;
+}
+
+.task-bullets {
+    list-style-type: circle;
+}
+
+.task-bullet {
+    display: flex;
+    column-gap: 5px;
+}
+
+.bullet-icon {
+    font-size: small;
+    padding: 5px;
+}
+
+
+.project-link {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: 600;
+    color: black;
+    column-gap: 8px;
+}
+
 @media only screen and (max-width: 900px) {
     
     .projects-div {
@@ -131,6 +200,11 @@
     .project-card .project-img {
         height: 200px;
     }
+
+    /* Project Modal CSS */
+    .modal-content {
+        min-width: 90vw;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -148,6 +222,34 @@
 
     .projects-footer {
         justify-content: center;
+    }
+
+    /* Project Modal CSS */
+    /* .modal-content {
+        min-width: 95vw;
+    } */
+
+    .modal-container-body {
+        flex-direction: column;
+    }
+
+    .modal-img-div {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .modal-txt {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .mobile-description {
+        display: block;
+
+    }
+
+    .desktop-description {
+        display: none;
     }
 }
   

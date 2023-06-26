@@ -19,15 +19,15 @@ const Splash = () => {
                 </Link>
                 <div className='splash-socials'>
                     <a href='https://www.linkedin.com/in/aribel-ruiz/'>
-                    <FontAwesomeIcon className='social-icon' icon={["fab", "linkedin"]}/>
+                        <FontAwesomeIcon className='social-icon' icon={["fab", "linkedin"]}/>
                     </a>
                     <a href='https://github.com/aribelruiz'>
-                    <FontAwesomeIcon className='social-icon' icon={["fab", "github"]}/>
+                        <FontAwesomeIcon className='social-icon' icon={["fab", "github"]}/>
                     </a>
                 </div>
             </div>
             <div className='splash-img'>
-                <img id='logo-img' src={profile}></img>
+                <img id='logo-img' src={profile} alt='profile-img'></img>
             </div>
         </div>
         </>
