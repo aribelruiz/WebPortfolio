@@ -17,27 +17,20 @@ const ProjectModal = (project) => {
                 <Modal.Body className='modal-container-body'>
                     <div className="modal-img-div">
                         <img className='modal-img' src={project.img} alt='project-img'></img>
-                        <h6 className="desktop-description txt-body">{project.description}</h6>
-
-                        {/* <h1>{project.name}</h1>
-                        <h3>Front-End Developer</h3>
-                        <a className='project-link' href='https://github.com/Brainbeats-v4/BrainBeatsv4'>                    
-                            <FontAwesomeIcon icon={['fab', 'github']}/>
-                            View Github
-                        </a> */}
                     </div>
                     <div className="modal-txt">
                     <h1>{project.name}</h1>
                         <h4>Front-End Developer</h4>
+                        <div className="txt-body">
+                            <h6 className="txt-body">{project.description}</h6>
+                            <br></br>
+                        </div>
                         <a className='project-link' href='https://github.com/Brainbeats-v4/BrainBeatsv4'>                    
                             <FontAwesomeIcon icon={['fab', 'github']}/>
                             View Github
                         </a>
                         <hr></hr>
-                        <div className="mobile-description txt-body">
-                            <h6 className="txt-body">{project.description}</h6>
-                            <br></br>
-                        </div>
+
                         <h6 className="subheading">My Contributions</h6>
                         <h6 className="txt-body">
                             <ul class='task-bullets' id='tasks-list'>

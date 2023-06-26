@@ -132,13 +132,15 @@
 
 .modal-img-div {
     /* background-color: red; */
-    width: 70%;
+    width: 80%;
     padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
 
 .modal-img{
     width: 100%;
-    padding-bottom: 10px;
+    border-radius: 20px;
 }
 
 .modal-txt {
@@ -147,10 +149,6 @@
     justify-content: center;
     margin: auto;
     padding: 0px 10px 10px 20px;
-}
-
-.mobile-description {
-    display: none;
 }
 
 .task-bullets {
@@ -173,14 +171,23 @@
     justify-content: left;
     align-items: center;
     font-weight: 600;
-    color: black;
+    color: #046dc3;
     column-gap: 8px;
+    width: fit-content;
+}
+.project-link:hover {
+    color: #025fac;
+    font-weight: bold;
+}
+
+.bullet-icon {
+    /* color: #046dc3; */
 }
 
 @media only screen and (max-width: 900px) {
     
     .projects-div {
-        width: 90%;
+        width: 95%;
     }
 
     .project-card {
@@ -205,21 +212,40 @@
     .modal-content {
         min-width: 90vw;
     }
+
+    .modal-txt {
+        /* background-color: red; */
+        width: 60%;
+    }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .project-list {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        row-gap: 10px;
+        row-gap: 20px;
+    }
+
+    .projects-div {
+        /* background-color: red; */
+        width: 100%;
+    }
+
+    .project-card-btn {
+        width: 85%;
     }
 
     .project-card {
-        width: 90%;
+        width: 100%;
     }
 
+    .project-card .project-img {
+        height: 200px;
+        width: 100%;
+    }
+    
     .projects-footer {
         justify-content: center;
     }
@@ -241,15 +267,6 @@
     .modal-txt {
         padding: 0px;
         width: 100%;
-    }
-
-    .mobile-description {
-        display: block;
-
-    }
-
-    .desktop-description {
-        display: none;
     }
 }
   

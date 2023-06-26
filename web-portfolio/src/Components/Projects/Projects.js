@@ -8,7 +8,7 @@ import "./Projects.css"
 import ProjectCard from "./ProjectCard";
 import ProjectModal from "./ProjectModal";
 
-// import { ProjectList } from "./ProjectList";
+import { ProjectList } from "./ProjectList";
 import bbImg from '../../Images/Projects/BrainBeatsHome.png';
 
 const Projects = () => {
@@ -56,18 +56,11 @@ const Projects = () => {
                 </div>
                 <div className="projects-body">
                     <div className="project-list">
-                        {/* {ProjectList.map((project) => {
-                            return  
-                            <div className='project-card-btn' onClick={() => setProject(project)}>
+                        {ProjectList.map((project, index) => 
+                            <div key={index} className='project-card-btn' onClick={() => setProject(project)}>
                                 <ProjectCard name={project.name} image={project.img} tagline={project.tagline}/>
                             </div>
-                        })} */}
-                        
-                        <div className='project-card-btn' onClick={() => setProject(brainBeats)}>
-                            <ProjectCard name={brainBeats.name} image={brainBeats.img} tagline={brainBeats.tagline}/>
-                        </div>
-                        {/* <ProjectCard name={"Epilapse"} image={epilapseImg} tagline={"Seizure Tracking Application"}/>
-                        <ProjectCard name={"Long Live Decay"} image={lldImg} tagline={"Action/Adventure Video Game"}/> */}
+                        )}
                     </div>
                 </div>
             </div>
