@@ -25,21 +25,21 @@ const Nav = () => {
                 </button>
             </div>
             <div className='nav-body'>
-                <div className='nav-item' to='/'> 
-                    <a className='nav-link'> Home </a>
-                </div>
+                <Link className='nav-item' to='/'> 
+                    <div className='nav-link'> Home </div>
+                </Link>
                 <div className='nav-item' href="#about-me">
                     <a className='nav-link' href='#about-me'> About Me </a>
                 </div>
                 <div className='nav-item'>
                     <a className='nav-link' href='#skills'> My Skills </a>
                 </div>
-                <div className='nav-item' to='/projects'> 
-                    <a className='nav-link'> Projects </a> 
-                </div>
-                <div className='nav-item contact-btn' to='/contact'> 
-                    <a className='nav-link'> Contact Me </a>
-                </div>
+                <Link className='nav-item' to='/projects'> 
+                    <div className='nav-link'> Projects </div> 
+                </Link>
+                <Link className='nav-item contact-btn' to='/contact'> 
+                    <div className='nav-link'> Contact Me </div>
+                </Link>
             </div>
         </div>
     );

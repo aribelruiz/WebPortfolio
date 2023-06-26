@@ -13,10 +13,10 @@ const Splash = () => {
                 <h5  className='txt-body'>
                     #WomanInSTEM with a passion for software engineering, front-end development, and education.
                 </h5>
-                <div className='projects-btn' to='/projects'>
-                    <a> My Projects </a>
+                <Link className='projects-btn' to='/projects'>
+                    <div> My Projects </div>
                     <FontAwesomeIcon className='btn-icon' icon={['fas', 'folder']}/>
-                </div>
+                </Link>
                 <div className='splash-socials'>
                     <a href='https://www.linkedin.com/in/aribel-ruiz/'>
                     <FontAwesomeIcon className='social-icon' icon={["fab", "linkedin"]}/>
