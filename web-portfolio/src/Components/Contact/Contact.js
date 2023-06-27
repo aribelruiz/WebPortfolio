@@ -24,7 +24,7 @@ const Contact = () => {
                     <h4 className='contact-line'>
                         <FontAwesomeIcon icon={["fab", "linkedin"]}/>
                         LinkedIn:  
-                        <a href='https://www.linkedin.com/in/aribel-ruiz/'>linkedin.com/in/aribel-ruiz/</a>    
+                        <a href='https://www.linkedin.com/in/aribel-ruiz/' target="_blank" rel="noreferrer noopener">linkedin.com/in/aribel-ruiz/</a>    
                     </h4>
                     <a className='resume-btn' href={AribelResume} download>
                         My Resume
