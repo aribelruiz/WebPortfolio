@@ -60,7 +60,7 @@ const Projects = () => {
  
 
     return (
-        <div className="home-div projects">
+        <div className="home-div projects" id='projects'>
             <div className="projects-div">
                 <div className="projects-header">
                     <h1 className="heading header-underline">My Personal Projects</h1>

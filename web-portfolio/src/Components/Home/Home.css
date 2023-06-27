@@ -72,7 +72,7 @@
 .splash-img{
     /* background-color: aqua; */
     width: 50%;
-    margin: auto;
+    /* margin: auto; */
     justify-content: center;
     align-items: center;
 }

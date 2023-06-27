@@ -1,13 +1,12 @@
 import React from 'react';
 import profile2 from '../../../../Images/aribelProfile2.jpg';
-import logo from '../../../../Images/aribelLogo.jpg';
 
 const AboutMe = () => {
     return (
         <>
-            <div className='home-div about-me'>
+            <div className='home-div about-me' id='about-me'>
                 <div className='about-img'>
-                    <img className='logo-img' src={profile2}></img>
+                    <img className='logo-img' src={profile2} alt='profile-img'></img>
                 </div>
                 <div className='about-txt'>
                     <h1 className='heading'>About Me</h1>

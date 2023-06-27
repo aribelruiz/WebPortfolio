@@ -6,6 +6,7 @@
     align-items: center;
     margin: auto;
     width: 85%;
+    min-height: 100vh;
 }
 
 .contact-logo {
@@ -16,7 +17,8 @@
 
 .contact .logo-img {
     box-shadow: none;
-    width: 95%;
+    width: 100%;
+    min-width: 300px;
 }
 .contact-txt {
     /* background-color: yellow; */
@@ -31,7 +33,7 @@
 .contact-txt-header {
     /* background-color: red; */
     text-align: left;
-    width: 90%;
+    width: 100%;
     padding: 50px 50px 0px 50px;
 }
 
@@ -39,7 +41,7 @@
     /* background-color: orange; */
     text-align: left;
     justify-content: left;
-    width: 90%;
+    width: 100%;
     padding: 50px;
 }
 
@@ -52,4 +54,41 @@
 
 .logo-img {
     width: 90%;
+}
+
+@media only screen and (max-width: 900px) {
+   .contact{
+        width: 100%;
+   }
+
+   .contact-logo {
+        padding: 10px;
+    }
+
+    .contact-txt-header {
+        padding: 50px 50px 0px 10px;
+    }
+
+    .contact-txt-body {
+        padding: 10px;
+    }
+
+   .contact-txt-body h4 {
+    font-size: medium;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .contact-logo, .contact-txt {
+        width: 85%;
+    }
+
+    .contact-txt-body {
+        padding-bottom: 15%;
+    }
 }

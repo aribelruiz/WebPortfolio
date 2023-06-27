@@ -23,7 +23,7 @@ import unityImg from '../../../../Images/Icons/unity.png';
 const Skills = () => {
     return (
         <>
-            <div className='home-div skills' >
+            <div className='home-div skills' id='skills'>
                 <div className='skills-header skills-underline'>
                     {/* <h1 className='heading'> Skills </h1>
                     <h1 className='subheading'> - </h1> */}

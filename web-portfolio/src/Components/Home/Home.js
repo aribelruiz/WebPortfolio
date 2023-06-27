@@ -12,11 +12,11 @@ const Home = () => {
     return (
         <div className='home-main'>
             <Splash/>
-            <hr id='about-me'></hr>
+            {/* <hr id='about-me'></hr> */}
             <AboutMe/>
-            <hr id='skills'></hr>
+            {/* <hr id='skills'></hr> */}
             <Skills/>
-            <hr id='projects'></hr>
+            {/* <hr id='projects'></hr> */}
             <ProjectsHome/>
         </div>
     );
