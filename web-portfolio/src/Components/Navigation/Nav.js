@@ -8,11 +8,11 @@ import logo from '../../Images/aribelLogo.jpg';
 const Nav = () => {
 
     const [expandNavbar, setExpandNavbar] = useState(false);
-    const location = useLocation();
+    // const location = useLocation();
 
     useEffect(() => {
         setExpandNavbar(false);
-    }, [location])
+    },[])
     
     return (
         <div className='navbar' id={expandNavbar? "open" : "close"}>
