@@ -7,6 +7,18 @@
     padding: 10px;
 }
 
+.jump-anchor {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: medium;
+    column-gap: 5px;
+    color: black;
+}
+.jump-anchor:hover {
+    font-weight: normal;
+}
+
 .footer-icons {
     /* background-color: red; */
     display: flex;

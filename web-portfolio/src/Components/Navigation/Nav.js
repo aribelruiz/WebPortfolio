@@ -18,7 +18,7 @@ const Nav = () => {
     
     return (
         <div className='navbar' id={expandNavbar? "open" : "close"}>
-            <div className='nav-header'>
+            <div className='nav-header' id='top'>
                 <a className='navbar-brand' href='/'>
                     <img className='brand-img' src={logo} alt='aribel-logo'></img>
                 </a>

@@ -5,6 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Footer = () => {
     return (
         <div className='footer'>
+           <a className='jump-anchor txt-body' href='#top'>
+              Jump to Top
+              <FontAwesomeIcon icon={["fas", "arrow-up"]}/>
+            </a>
             <div className='footer-icons'>
                 <a href='https://www.linkedin.com/in/aribel-ruiz/'>
                   <FontAwesomeIcon className='footer-icon' icon={["fab", "linkedin"]}/>
