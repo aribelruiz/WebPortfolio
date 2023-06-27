@@ -68,6 +68,7 @@ const Projects = () => {
                 <ProjectModal 
                     name={currentProject.name}
                     img={currentProject.img}
+                    role={currentProject.role}
                     description={currentProject.description}
                     contributions={currentProject.contributions}
                     projectLink = {currentProject.projectLink}

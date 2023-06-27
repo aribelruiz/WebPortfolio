@@ -22,7 +22,7 @@ const ProjectModal = (project) => {
                     </div>
                     <div className="modal-txt">
                     <h1>{project.name}</h1>
-                        <h4>Front-End Developer</h4>
+                        <h4>{project.role}</h4>
                         <div className="txt-body">
                             <h6 className="txt-body">{project.description}</h6>
                             <br></br>
