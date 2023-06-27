@@ -7,9 +7,6 @@ import ProjectModal from "../../Projects/ProjectModal";
 
 import "../../Projects/Projects.css";
 import ProjectCard from "../../Projects/ProjectCard";
-// import bbImg from "../../../Images/Projects/BrainBeatsHome.png";
-// import epilapseImg from "../../../Images/Projects/EpilapseHome.png";
-// import lldImg from "../../../Images/Projects/LLDHome.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 
@@ -18,7 +15,6 @@ import { ProjectList } from "../../Projects/ProjectList";
 
 const Projects = () => {
 
-    // let defaultImg = bbImg;
     let emptyProject = {
         name: "",
         img: "",
@@ -27,19 +23,6 @@ const Projects = () => {
         role: "",
         contributions: ""
     }
-
-    // Setting projects
-    // let brainBeats = {
-    //     name: "Brain Beats V4",
-    //     img: bbImg,
-    //     tagline: "Music Sharing Platform",
-    //     role: "Front-End Developer",
-    //     description: "Version 4 of a music sharing web app built for converting brain activity" +
-    //     "into Musical Instrument Digital Interface files (MIDI).",
-    //     contributions: "Modularized the previous front-end system• Wrote extensive documentation for future developers" +
-    //     "• Worked alongside backend developers to implement functional front-end components" + 
-    //     "• Designed and implemented UI/UX"
-    // }
 
     // For displaying modal
     const [show, setShow] = useState(false);
