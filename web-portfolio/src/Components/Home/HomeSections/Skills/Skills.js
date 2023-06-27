@@ -40,31 +40,31 @@ const Skills = () => {
                             {/* <h5 style={{textAlign:'left'}}>Languages</h5> */}
                             <ul className='skills-list'>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={jsImg}></img>
+                                    <img className='icon-img' src={jsImg} alt='javascript-logo'></img>
                                     <h6 className='subheading'> JavaScript </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={tsImg}></img>
+                                    <img className='icon-img' src={tsImg} alt='typescript-logo'></img>
                                     <h6 className='subheading'> TypeScript </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={htmlImg}></img>
+                                    <img className='icon-img' src={htmlImg} alt='html-logo'></img>
                                     <h6 className='subheading'> HTML </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={cssImg}></img>
+                                    <img className='icon-img' src={cssImg} alt='css-logo'></img>
                                     <h6 className='subheading'> CSS </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={reactImg}></img>
+                                    <img className='icon-img' src={reactImg} alt='react-logo'></img>
                                     <h6 className='subheading'> React </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={bootstrapImg}></img>
+                                    <img className='icon-img' src={bootstrapImg} alt='bootstrap-logo'></img>
                                     <h6 className='subheading'> Bootstrap </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={figmaImg}></img>
+                                    <img className='icon-img' src={figmaImg} alt='figma-logo'></img>
                                     <h5 className='subheading'> Figma </h5>
                                 </div>
                             </ul>
@@ -81,31 +81,31 @@ const Skills = () => {
                             {/* <h5 style={{textAlign:'left'}}>Languages</h5> */}
                                 <ul className='skills-list'>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={javaImg}></img>
+                                    <img className='icon-img' src={javaImg} alt='java-logo'></img>
                                     <h6 className='subheading'> Java </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={cImg}></img>
+                                    <img className='icon-img' src={cImg} alt='c-file-icon'></img>
                                     <h6 className='subheading'> C </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={cplusImg}></img>
+                                    <img className='icon-img' src={cplusImg} alt='c++-logo'></img>
                                     <h6 className='subheading'> C++ </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={gitImg}></img>
+                                    <img className='icon-img' src={gitImg} alt='github-logo'></img>
                                     <h6 className='subheading'> GitHub </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={vsImg}></img>
+                                    <img className='icon-img' src={vsImg} alt='VScode-logo'></img>
                                     <h6 className='subheading'> VS Code </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={unityImg}></img>
+                                    <img className='icon-img' src={unityImg} alt='unity-logo'></img>
                                     <h6 className='subheading'> Unity </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={plasticImg}></img>
+                                    <img className='icon-img' src={plasticImg} alt='plastic-logo'></img>
                                     <h6 className='subheading'> plasticScm </h6>
                                 </div>
                             </ul>
