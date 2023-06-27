@@ -27,7 +27,7 @@ const Splash = () => {
                 </div>
             </div>
             <div className='splash-img'>
-                <img id='logo-img' src={profile} alt='profile-img'></img>
+                <img className='logo-img' src={profile} alt='profile-img'></img>
             </div>
         </div>
         </>
