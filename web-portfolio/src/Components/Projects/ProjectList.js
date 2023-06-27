@@ -3,6 +3,8 @@ import epiImg from "../../Images/Projects/EpilapseHome.png";
 import lldImg from "../../Images/Projects/LLDHome.png";
 import contactImg from "../../Images/Projects/contactManager.png";
 import mtImg from "../../Images/Projects/mtJava.png";
+import portfolioImg from "../../Images/Projects/webPortfolio.png";
+
 
 
 export const ProjectList = [
@@ -46,6 +48,19 @@ export const ProjectList = [
         projectLink: "https://spiderfoxproductions.itch.io/long-live-decay",
         github: false,
         viewProject: true
+    },
+    {
+        name: "aribel.dev",
+        img: portfolioImg,
+        tagline: "My Web Porfolio",
+        role: "Web Developer",
+        description: "A ReactJS web application for displaying my personal skills and projects.",
+        contributions: "Designed and developed UI/UX" +
+        "• Implemented UI/UX as functional components" + 
+        "• Developed and deployed my personal web application",
+        projectLink: "https://github.com/aribelruiz/WebPortfolio",
+        github: true,
+        viewProject: false
     },
     {
         name: "Text Analyzer",
