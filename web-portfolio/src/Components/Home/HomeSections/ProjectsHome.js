@@ -87,6 +87,9 @@ const Projects = () => {
                     img={currentProject.img}
                     description={currentProject.description}
                     contributions={currentProject.contributions}
+                    projectLink = {currentProject.projectLink}
+                    github = {currentProject.github}
+                    viewProject = {currentProject.viewProject}
                     closeModal={setShow}/>
             </Modal>
         </div>

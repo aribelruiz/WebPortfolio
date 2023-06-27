@@ -51,8 +51,9 @@ const Projects = () => {
         <div className="projects">
             <div className="projects-div">
                 <div className="projects-header">
-                    <h1 className="heading header-underline">My Personal Projects</h1>
+                    <h1 className="heading header-underline">Projects</h1>
                 </div>
+                <h4 style={{textAlign:"left", paddingTop: "0px"}} className="projects-header subeading">Below are some of my projects:</h4>
                 <div className="projects-body">
                     <div className="project-list">
                         {ProjectList.map((project, index) => 
@@ -69,6 +70,9 @@ const Projects = () => {
                     img={currentProject.img}
                     description={currentProject.description}
                     contributions={currentProject.contributions}
+                    projectLink = {currentProject.projectLink}
+                    github = {currentProject.github}
+                    viewProject = {currentProject.viewProject}
                     closeModal={setShow}/>
             </Modal>
         </div>

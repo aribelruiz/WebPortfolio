@@ -8,6 +8,8 @@ const ProjectModal = (project) => {
     let str = project.contributions;
     let strArr = str.split("\u2022");
 
+    console.log(project);
+
     return (
         <>
         <div>
@@ -25,19 +27,24 @@ const ProjectModal = (project) => {
                             <h6 className="txt-body">{project.description}</h6>
                             <br></br>
                         </div>
-                        <a className='project-link' href='https://github.com/Brainbeats-v4/BrainBeatsv4'>                    
+                        {project.github && <a className='project-link' href={project.projectLink}> 
                             <FontAwesomeIcon icon={['fab', 'github']}/>
                             View Github
-                        </a>
+                        </a>}
+                        {project.viewProject && <a className='project-link' href={project.projectLink}> 
+                            <FontAwesomeIcon icon={['fa', 'desktop']}/>
+                            View Project
+                        </a>}
+                        
                         <hr></hr>
 
                         <h6 className="subheading">My Contributions</h6>
                         <h6 className="txt-body">
-                            <ul class='task-bullets' id='tasks-list'>
+                            <ul className='task-bullets' id='tasks-list'>
                                 {strArr.map((str, bullet) =>
-                                    <div className="task-bullet">
+                                    <div key={bullet} className="task-bullet">
                                         <FontAwesomeIcon className='bullet-icon' icon={["fas", "circle-check"]}/>
-                                        <h6 key={bullet} className="txt-body">{str}</h6>
+                                        <h6 className="txt-body">{str}</h6>
                                     </div>
                                 )}
                             </ul>
