@@ -25,19 +25,19 @@ const Nav = () => {
                 </button>
             </div>
             <div className='nav-body'>
-                <Link className='nav-item' to='/'> 
-                    <div className='nav-link'> Home </div>
-                </Link>
-                <div className='nav-item'>
+                <div className='nav-item' onClick={() => {setExpandNavbar((prev) => !prev)}}> 
+                    <a className='nav-link' href='/'> Home </a>
+                </div>
+                <div className='nav-item' onClick={() => {setExpandNavbar((prev) => !prev)}}>
                     <a className='nav-link' href='/#about-me'> About Me </a>
                 </div>
-                <div className='nav-item'>
+                <div className='nav-item' onClick={() => {setExpandNavbar((prev) => !prev)}}>
                     <a className='nav-link' href='/#skills'> My Skills </a>
                 </div>
-                <div className='nav-item'>
+                <div className='nav-item' onClick={() => {setExpandNavbar((prev) => !prev)}}>
                     <a className='nav-link' href='/#projects'> Projects </a>
                 </div>
-                <Link className='nav-item contact-btn' to='/contact'> 
+                <Link className='nav-item contact-btn' to='/contact' onClick={() => {setExpandNavbar((prev) => !prev)}}> 
                     <div className='nav-link'> Contact Me </div>
                 </Link>
             </div>
