@@ -2,6 +2,8 @@ import React, {useEffect, useState} from 'react';
 import './Nav.css'
 
 import {Link} from'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+
 import logo from '../../Images/aribelLogo.jpg';
 
 
@@ -25,16 +27,16 @@ const Nav = () => {
                 </button>
             </div>
             <div className='nav-body'>
-                <div className='nav-item'> 
-                    <a className='nav-link' href='/'> Home </a>
-                </div>
-                <div className='nav-item'>
-                    <a className='nav-link' href='/#about-me'> About Me </a>
-                </div>
-                <div className='nav-item'>
-                    <a className='nav-link' href='/#skills'> My Skills </a>
-                </div>
-                <Link className='nav-item' to='/projects'>
+                <Link className='nav-item' to='/' onClick={() => {setExpandNavbar((prev) => !prev)}}> 
+                    <div className='nav-link'> Home </div>
+                </Link>
+                <HashLink className='nav-item' to='/#about-me' onClick={() => {setExpandNavbar((prev) => !prev)}}>
+                    <div className='nav-link'> About Me </div>
+                </HashLink>
+                <HashLink className='nav-item' to='/#skills' onClick={() => {setExpandNavbar((prev) => !prev)}}>
+                    <div className='nav-link'> My Skills </div>
+                </HashLink>
+                <Link className='nav-item' to='/projects' onClick={() => {setExpandNavbar((prev) => !prev)}}>
                     <div className='nav-link'> Projects </div>
                 </Link>
                 <Link className='nav-item contact-btn' to='/contact' onClick={() => {setExpandNavbar((prev) => !prev)}}> 
