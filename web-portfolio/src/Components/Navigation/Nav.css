@@ -149,4 +149,11 @@
     .navbar-toggler {
         display: none;
     }
+
+}
+
+@media only screen and (max-width: 599px) {
+    .navbar-brand {
+        margin: 10px;
+    }
 }
