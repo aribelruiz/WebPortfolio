@@ -1,7 +1,7 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import profile from '../../../Images/aribelProfile.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import AribelResume from '../../Files/AribelResumeWeb.pdf';
 
 const Splash = () => {
     return (
@@ -13,10 +13,10 @@ const Splash = () => {
                 <h5  className='txt-body'>
                     #WomanInSTEM with a passion for software engineering, front-end development, and education.
                 </h5>
-                <Link className='projects-btn' to='/projects'>
-                    <div> My Projects </div>
-                    <FontAwesomeIcon className='btn-icon' icon={['fas', 'folder']}/>
-                </Link>
+                <a className='resume-btn' href={AribelResume} download>
+                    <div> My Resume </div>
+                    <FontAwesomeIcon className='btn-icon' icon={['fas', 'file']}/>
+                </a>
                 <div className='splash-socials'>
                     <a href='https://www.linkedin.com/in/aribel-ruiz/'>
                         <FontAwesomeIcon className='social-icon' icon={["fab", "linkedin"]}/>
