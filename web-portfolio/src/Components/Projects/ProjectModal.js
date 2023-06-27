@@ -27,11 +27,11 @@ const ProjectModal = (project) => {
                             <h6 className="txt-body">{project.description}</h6>
                             <br></br>
                         </div>
-                        {project.github && <a className='project-link' href={project.projectLink}> 
+                        {project.github && <a className='project-link' href={project.projectLink} target="_blank" rel="noreferrer noopener"> 
                             <FontAwesomeIcon icon={['fab', 'github']}/>
                             View Github
                         </a>}
-                        {project.viewProject && <a className='project-link' href={project.projectLink}> 
+                        {project.viewProject && <a className='project-link' href={project.projectLink} target="_blank" rel="noreferrer noopener"> 
                             <FontAwesomeIcon icon={['fa', 'desktop']}/>
                             View Project
                         </a>}
