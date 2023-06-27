@@ -17,6 +17,17 @@ export const ProjectList = [
     {
         name: "Epilapse",
         img: epiImg,
+        tagline: "Seizure Tracking Application",
+        role: "Front-End Developer",
+        description: "A mobile and web application allowing users to track and view the correlation between their seizures and related medications." +
+        " Epilapse also allows users to share their information with registered caretakers linked to their account.",
+        contributions: "Designed and implemented Web/Mobile UI/UX" +
+        "• Implemented UI/UX as functional components on both web/mobile" + 
+        "• Developed within an Agile environment alongside other developers"
+    },
+    {
+        name: "Long Live Decay",
+        img: lldImg,
         tagline: "Music Sharing Platform",
         role: "Front-End Developer",
         description: "The fourth generation of a music sharing web application built for converting brain activity" +
@@ -26,7 +37,7 @@ export const ProjectList = [
         "• Designed and implemented UI/UX"
     },
     {
-        name: "Long Live Decay",
+        name: "Long Live Decay2",
         img: lldImg,
         tagline: "Music Sharing Platform",
         role: "Front-End Developer",
