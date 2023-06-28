@@ -50,9 +50,9 @@ export const ProjectList = [
         viewProject: true
     },
     {
-        name: "aribel.dev",
+        name: "Aribel's Porfolio",
         img: portfolioImg,
-        tagline: "My Web Porfolio",
+        tagline: "My Personal Web Porfolio",
         role: "Web Developer",
         description: "A ReactJS web application for displaying my personal skills and projects.",
         contributions: "Designed and developed UI/UX" +
