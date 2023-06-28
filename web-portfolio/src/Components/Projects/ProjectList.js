@@ -14,7 +14,7 @@ export const ProjectList = [
         tagline: "Music Sharing Platform",
         role: "Front-End Developer",
         description: "Version 4 of a music sharing web app built for converting brain activity" +
-        "into Musical Instrument Digital Interface files (MIDI).",
+        " into Musical Instrument Digital Interface files (MIDI).",
         contributions: "Modularized the previous front-end system• Wrote extensive documentation for future developers" +
         "• Worked alongside backend developers to implement functional front-end components" + 
         "• Designed and implemented UI/UX",
