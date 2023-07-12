@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import Modal from "react-bootstrap/Modal";
+import Caro from "../Carousel/Carousel";
 
 const ProjectModal = (project) => {
 
@@ -18,8 +19,11 @@ const ProjectModal = (project) => {
                 </Modal.Header> 
                 <Modal.Body className='modal-container-body'>
                     <div className="modal-img-div">
-                        <img className='modal-img' src={project.img} alt='project-img'></img>
+                        <Caro/>
                     </div>
+                    {/* <div className="modal-img-div">
+                        <img className='modal-img' src={project.img} alt='project-img'></img>
+                    </div> */}
                     <div className="modal-txt">
                     <h1>{project.name}</h1>
                         <h4>{project.role}</h4>
