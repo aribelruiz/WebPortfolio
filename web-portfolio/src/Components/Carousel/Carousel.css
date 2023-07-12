@@ -13,3 +13,7 @@
     height: fit-content;
     border-radius: 20px;
 }
+
+.single .carousel-indicators, .single .carousel-control-prev, .single .carousel-control-next{
+    display: none;
+}

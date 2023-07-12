@@ -9,8 +9,6 @@ const ProjectModal = (project) => {
     let str = project.contributions;
     let strArr = str.split("\u2022");
 
-    console.log(project);
-
     return (
         <>
         <div>
@@ -19,7 +17,7 @@ const ProjectModal = (project) => {
                 </Modal.Header> 
                 <Modal.Body className='modal-container-body'>
                     <div className="modal-img-div">
-                        <Caro/>
+                        <Caro slides={project.slides}/>
                     </div>
                     {/* <div className="modal-img-div">
                         <img className='modal-img' src={project.img} alt='project-img'></img>
