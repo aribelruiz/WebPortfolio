@@ -9,33 +9,20 @@ import ProjectCard from "./ProjectCard";
 import ProjectModal from "./ProjectModal";
 
 import { ProjectList } from "./ProjectList";
-// import bbImg from '../../Images/Projects/BrainBeatsHome.png';
+import bbImg from '../../Images/Projects/BrainBeats/bb1.png';
+
 
 const Projects = () => {
 
-    // let defaultImg = bbImg;
     let emptyProject = {
         name: "",
         img: "",
+        slides: [bbImg],
         tagline: "",
         description: "",
         role: "",
         contributions: ""
     }
-
-    // // Setting projects
-    // let brainBeats = {
-    //     name: "Brain Beats V4",
-    //     img: bbImg,
-    //     tagline: "Music Sharing Platform",
-    //     role: "Front-End Developer",
-    //     description: "Version 4 of a music sharing web app built for converting brain activity" +
-    //     " into Musical Instrument Digital Interface files (MIDI).",
-    //     contributions: "Modularized the previous front-end system• Wrote extensive documentation for future developers" +
-    //     "• Worked alongside backend developers to implement functional front-end components" + 
-    //     "• Designed and implemented UI/UX"
-    // }
-
 
     // For displaying modal
     const [show, setShow] = useState(false);
@@ -65,16 +52,7 @@ const Projects = () => {
                 </div>
             </div>
             <Modal id='pop-up' show={show} onHide={handleClose}>
-                <ProjectModal 
-                    name={currentProject.name}
-                    img={currentProject.img}
-                    role={currentProject.role}
-                    description={currentProject.description}
-                    contributions={currentProject.contributions}
-                    projectLink = {currentProject.projectLink}
-                    github = {currentProject.github}
-                    viewProject = {currentProject.viewProject}
-                    closeModal={setShow}/>
+                <ProjectModal {...currentProject}/>
             </Modal>
         </div>
     );

@@ -1,16 +1,64 @@
-import bbImg from "../../Images/Projects/BrainBeatsHome.png";
-import epiImg from "../../Images/Projects/EpilapseHome.png";
-import lldImg from "../../Images/Projects/LLDHome.png";
-import contactImg from "../../Images/Projects/contactManager.png";
-import mtImg from "../../Images/Projects/mtJava.png";
-import portfolioImg from "../../Images/Projects/webPortfolio.png";
+// Function for importing multiple images from folder
+function importAll(folder) {
+	let images = {};
+  folder.keys().forEach((item, index) => { images[item.replace('./', '')] = folder(item); });
+	return images
+}
+
+// Importing BrainBeats slide images
+const bbImgs = importAll(require.context('../../Images/Projects/BrainBeats', false, /\.(png|jpe?g|svg)$/));
+let bbSlides = [];
+for (let i = 0; i < Object.keys(bbImgs).length; i++) {
+    let img = bbImgs[`bb${i+1}.png`];
+    bbSlides[i] = img;
+}
 
 
+// Importing Epilapse slide images
+const epiImgs = importAll(require.context('../../Images/Projects/Epilapse', false, /\.(png|jpe?g|svg)$/));
+let epiSlides = [];
+for (let i = 0; i < Object.keys(epiImgs).length; i++) {
+    let img = epiImgs[`epi${i+1}.png`];
+    epiSlides[i] = img;
+}
+
+// Importing LongLiveDecay slide images
+const lldImgs = importAll(require.context('../../Images/Projects/LongLiveDecay', false, /\.(png|jpe?g|svg)$/));
+let lldSlides = [];
+for (let i = 0; i < Object.keys(lldImgs).length; i++) {
+    let img = lldImgs[`lld${i+1}.png`];
+    lldSlides[i] = img;
+}
+
+// Importing Portfolio slide images
+const portImgs = importAll(require.context('../../Images/Projects/PortfolioWeb', false, /\.(png|jpe?g|svg)$/));
+let portSlides = [];
+for (let i = 0; i < Object.keys(portImgs).length; i++) {
+    let img = portImgs[`port${i+1}.png`];
+    portSlides[i] = img;
+}
+
+// Importing TextAnalyzer slide images
+const taImgs = importAll(require.context('../../Images/Projects/TextAnalyzer', false, /\.(png|jpe?g|svg)$/));
+let taSlides = [];
+for (let i = 0; i < Object.keys(taImgs).length; i++) {
+    let img = taImgs[`ta${i+1}.png`];
+    taSlides[i] = img;
+}
+
+// Importing Contact Manager slide images
+const cmImgs = importAll(require.context('../../Images/Projects/ContactManager', false, /\.(png|jpe?g|svg)$/));
+let cmSlides = [];
+for (let i = 0; i < Object.keys(cmImgs).length; i++) {
+    let img = cmImgs[`cm${i+1}.png`];
+    cmSlides[i] = img;
+}
 
 export const ProjectList = [
     {
         name: "Brain Beats V4",
-        img: bbImg,
+        img: bbSlides[0],
+        slides: bbSlides,
         tagline: "Music Sharing Platform",
         role: "Front-End Developer",
         description: "Version 4 of a music sharing web app built for converting brain activity" +
@@ -24,7 +72,8 @@ export const ProjectList = [
     },
     {
         name: "Epilapse",
-        img: epiImg,
+        img: epiSlides[0],
+        slides: epiSlides,
         tagline: "Seizure Tracking Application",
         role: "Front-End Developer",
         description: "A mobile and web application allowing users to track and view the correlation between their seizures and related medications." +
@@ -38,7 +87,8 @@ export const ProjectList = [
     },
     {
         name: "Long Live Decay",
-        img: lldImg,
+        img: lldSlides[0],
+        slides: lldSlides,
         tagline: "Action/Adventure Video Game",
         role: "Full-Stack Developer",
         description: "A single player 2.5D action/adventure game developed on Unity for PC. This game was awarded Best Technical Video Game for UCF's AI for Game Programming Course in Spring 2022. ",
@@ -51,7 +101,8 @@ export const ProjectList = [
     },
     {
         name: "Aribel's Porfolio",
-        img: portfolioImg,
+        img: portSlides[0],
+        slides: portSlides,
         tagline: "My Personal Web Porfolio",
         role: "Web Developer",
         description: "A ReactJS web application for displaying my personal skills and projects.",
@@ -64,7 +115,8 @@ export const ProjectList = [
     },
     {
         name: "Text Analyzer",
-        img: mtImg,
+        img: taSlides[0],
+        slides: taSlides,
         tagline: "Multi-Threaded Text Analyzer",
         role: "Java Developer",
         description: "A multi-threaded implementation of a text analyzer in Java that filters the most common words in large volumes" + 
@@ -78,7 +130,8 @@ export const ProjectList = [
     },
     {
         name: "Contact Manager",
-        img: contactImg,
+        img: cmSlides[0],
+        slides: cmSlides,
         tagline: "Contact Manager Web Application",
         role: "Front-End Developer",
         description: "A web application allowing registered users to add, store, search, and delete contact information as well as edit their.",
