@@ -106,9 +106,8 @@ export const ProjectList = [
         tagline: "My Personal Web Porfolio",
         role: "Web Developer",
         description: "A ReactJS web application for displaying my personal skills and projects.",
-        contributions: "Designed and developed UI/UX" +
-        "• Implemented UI/UX as functional components" + 
-        "• Developed and deployed my personal web application",
+        contributions: "Designed and developed UI/UX• Implemented UI/UX as functional components" + 
+        "• Developed and deployed my personal web application• Ensured responsive UI across multiple devices and browsers",
         projectLink: "https://github.com/aribelruiz/WebPortfolio",
         github: true,
         viewProject: false
