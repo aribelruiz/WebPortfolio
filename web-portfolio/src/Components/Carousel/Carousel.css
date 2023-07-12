@@ -4,10 +4,12 @@
 
 .caro-img {
     width: 100%;
+    border-radius: 20px;
     aspect-ratio: 4/3;
 }
 
 .slide {
     width: fit-content;
     height: fit-content;
+    border-radius: 20px;
 }
