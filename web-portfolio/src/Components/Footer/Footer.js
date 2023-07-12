@@ -10,10 +10,10 @@ const Footer = () => {
               <FontAwesomeIcon icon={["fas", "arrow-up"]}/>
             </a>
             <div className='footer-icons'>
-                <a href='https://www.linkedin.com/in/aribel-ruiz/'>
+                <a href='https://www.linkedin.com/in/aribel-ruiz/' target="_blank" rel="noreferrer noopener">
                   <FontAwesomeIcon className='footer-icon' icon={["fab", "linkedin"]}/>
                 </a>
-                <a href='https://github.com/aribelruiz'>
+                <a href='https://github.com/aribelruiz' target="_blank" rel="noreferrer noopener">
                   <FontAwesomeIcon className='footer-icon' icon={["fab", "github"]}/>
                 </a>
                 <a href='mailto: aribelr1@gmail.com'>
