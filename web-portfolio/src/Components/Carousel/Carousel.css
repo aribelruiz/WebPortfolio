@@ -17,3 +17,8 @@
 .single .carousel-indicators, .single .carousel-control-prev, .single .carousel-control-next{
     display: none;
 }
+
+.multi .carousel-control-prev-icon, .multi .carousel-control-next-icon {
+    background-color: rgb(23, 23, 23);
+    border-radius: 50%;
+}
