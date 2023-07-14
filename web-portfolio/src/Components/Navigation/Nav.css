@@ -69,12 +69,12 @@
     align-items: center;
 }
 .nav-item:hover {
-    background-color: gray;   
+    background-color: rgb(174, 174, 174);   
     color: white; 
     text-decoration: underline;
 }
 .nav-item:active {
-    background-color: gray;
+    background-color: rgb(174, 174, 174);   
 }
 
 .nav-link {
