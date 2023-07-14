@@ -64,8 +64,7 @@ export const ProjectList = [
         description: "Version 4 of a music sharing web app built for converting brain activity" +
         " into Musical Instrument Digital Interface files (MIDI).",
         contributions: "Modularized the previous front-end system• Wrote extensive documentation for future developers" +
-        "• Worked alongside backend developers to implement functional front-end components" + 
-        "• Designed and implemented UI/UX",
+        "• Designed and implemented functional UI/UX• Worked alongside backend developers to implement API endpoints and integrate Unsplash API",
         projectLink: "https://github.com/Brainbeats-v4/BrainBeatsv4",
         github: true,
         viewProject: false
