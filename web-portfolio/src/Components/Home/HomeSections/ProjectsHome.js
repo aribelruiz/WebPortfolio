@@ -65,16 +65,7 @@ const Projects = () => {
                 </div>
             </div>
             <Modal id='pop-up' show={show} onHide={handleClose}>
-                <ProjectModal 
-                    name={currentProject.name}
-                    img={currentProject.img}
-                    role={currentProject.role}
-                    description={currentProject.description}
-                    contributions={currentProject.contributions}
-                    projectLink = {currentProject.projectLink}
-                    github = {currentProject.github}
-                    viewProject = {currentProject.viewProject}
-                    closeModal={setShow}/>
+                <ProjectModal {...currentProject}/>
             </Modal>
         </div>
     );
