@@ -111,11 +111,13 @@ $darker-blue: #135e9b;
 .skill-hide {
     opacity: 0;
     filter: blur(3px);
-    transition: opacity 1s, filter 0.5s;
+    transform: translateY(-10%);
+    transition: opacity 1s, filter 0.5s, transform 1s;
 }
 
 .skill-show{
     opacity: 1;
+    transform: translateX(0);
     filter: blur(0px);
 }
 
@@ -140,17 +142,15 @@ $darker-blue: #135e9b;
 @media only screen and (max-width: 900px) {
 
     .skills {
-        width: 90%;
+        width: 95%;
+    }
+
+    .skills-list{
+        width: 100%;
     }
 
     .skills-body {
         flex-wrap: wrap;
-    }
-
-    .skills-item {
-        flex-direction: column;
-        width: fit-content;
-        margin: 1%;
     }
 }
 
@@ -166,7 +166,6 @@ $darker-blue: #135e9b;
     .skills-body {
         flex-wrap: wrap;
         padding: 5px;
-        row-gap: 10px;
     }
 
     .skills-toggle-btn, .toggle-active {
