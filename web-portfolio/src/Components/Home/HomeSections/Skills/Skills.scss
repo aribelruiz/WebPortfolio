@@ -60,7 +60,11 @@ $darker-blue: #135e9b;
 
 .toggle-active {
     color: $darker-blue;
-    border-bottom: solid 4px $darker-blue;  
+    border-bottom: solid 5px $darker-blue;  
+}
+
+.toggle-active h4 {
+    font-weight: 650 !important;
 }
 
 .skills-item {
