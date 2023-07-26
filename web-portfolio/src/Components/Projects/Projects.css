@@ -53,6 +53,7 @@
     flex-wrap: wrap;
     justify-content: center;
     column-gap: 2%;
+    row-gap: 15px;
     width: 100%;
     padding: 10px;
 }
@@ -75,10 +76,10 @@
 .project-card {
     background-color: white;
     color: black;
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.4);
     border-radius: 15px;
     width: 360px;
-    height: 360px;
+    height: 370px;
     padding-bottom: 10px;
     margin: 1%;
 }
@@ -102,6 +103,17 @@
     margin: 10px;
     margin-left: 20px;
     text-align: left;
+}
+
+.card-view-btn{
+    /* background-color: red; */
+    color: rgb(95, 95, 95);
+    text-align: right;
+    padding-right: 5%;
+    font-weight: 500;
+}
+.card-view-btn:hover{
+    text-decoration: underline;
 }
 
 .project-hide {

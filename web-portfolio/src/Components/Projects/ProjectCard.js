@@ -8,6 +8,7 @@ const ProjectCard = ({image, name, tagline}) => {
                 <h2> {name} </h2>
                 <h5 className="subheading"> {tagline} </h5>
             </div>
+            <h6 className="card-view-btn">Learn More </h6>
         </div>
     );
 }
