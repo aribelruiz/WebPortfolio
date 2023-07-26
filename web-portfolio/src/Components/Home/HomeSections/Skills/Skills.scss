@@ -120,7 +120,7 @@ $darker-blue: #135e9b;
 }
 
 .skill-icon {
-    background-color: white;
+    // background-color: red;
     color: black;
     flex-direction: column;
     row-gap: 10px;
@@ -133,6 +133,7 @@ $darker-blue: #135e9b;
 
 .icon-img {
     width: 130px;
+    min-height: 130px;
     padding: 5px;
 }
 
@@ -178,5 +179,6 @@ $darker-blue: #135e9b;
 
     .icon-img {
         width: 80px;
+        min-height: 80px;
     }
 }

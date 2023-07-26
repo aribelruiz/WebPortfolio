@@ -11,6 +11,7 @@ import cssImg from '../../../../Images/Icons/css.png';
 import reactImg from '../../../../Images/Icons/react.png'; 
 import bootstrapImg from '../../../../Images/Icons/bootstrap.png'; 
 import figmaImg from '../../../../Images/Icons/figma.png';
+import sassImg from '../../../../Images/Icons/sass.png';
 
 import javaImg from '../../../../Images/Icons/java.png';
 import cImg from '../../../../Images/Icons/c.png';
@@ -107,6 +108,10 @@ const Skills = () => {
                                 <div className='skill skill-icon'> 
                                     <img className='icon-img' src={figmaImg} alt='figma-logo'></img>
                                     <h5 className='subheading'> Figma </h5>
+                                </div>
+                                <div className='skill skill-icon'> 
+                                    <img className='icon-img' src={sassImg} alt='css-logo'></img>
+                                    <h6 className='subheading'> SASS </h6>
                                 </div>
                             </ul>}
 
