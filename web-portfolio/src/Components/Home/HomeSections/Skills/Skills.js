@@ -1,5 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useRef, useState } from 'react';
+import {LazyLoadImage as Img} from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/opacity.css';
+
 import './Skills.scss';
 
 // Importing Icon images
@@ -82,35 +85,35 @@ const Skills = () => {
                             {/* Front End Skills */}           
                             {toggleSkills && <ul className='skills-list'>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={jsImg} alt='javascript-logo'></img>
+                                    <Img effect='opacity'   className='icon-img' src={jsImg} alt='javascript-logo'></Img>
                                     <h6 className='subheading'> JavaScript </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={tsImg} alt='typescript-logo'></img>
+                                    <Img effect='opacity'   className='icon-img' src={tsImg} alt='typescript-logo'></Img>
                                     <h6 className='subheading'> TypeScript </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={htmlImg} alt='html-logo'></img>
+                                    <Img effect='opacity'   className='icon-img' src={htmlImg} alt='html-logo'></Img>
                                     <h6 className='subheading'> HTML </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={cssImg} alt='css-logo'></img>
+                                    <Img effect='opacity'   className='icon-img' src={cssImg} alt='css-logo'></Img>
                                     <h6 className='subheading'> CSS </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={reactImg} alt='react-logo'></img>
+                                    <Img effect='opacity'   className='icon-img' src={reactImg} alt='react-logo'></Img>
                                     <h6 className='subheading'> React </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={bootstrapImg} alt='bootstrap-logo'></img>
+                                    <Img effect='opacity'   className='icon-img' src={bootstrapImg} alt='bootstrap-logo'></Img>
                                     <h6 className='subheading'> Bootstrap </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={figmaImg} alt='figma-logo'></img>
+                                    <Img effect='opacity'   className='icon-img' src={figmaImg} alt='figma-logo'></Img>
                                     <h5 className='subheading'> Figma </h5>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={sassImg} alt='css-logo'></img>
+                                    <Img effect='opacity'   className='icon-img' src={sassImg} alt='css-logo'></Img>
                                     <h6 className='subheading'> SASS </h6>
                                 </div>
                             </ul>}
@@ -118,31 +121,31 @@ const Skills = () => {
                             {/* Software Development Skills */}
                             {!toggleSkills && <ul className='skills-list'>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={javaImg} alt='java-logo'></img>
+                                    <Img effect='opacity'   className='icon-img' src={javaImg} alt='java-logo'></Img>
                                     <h6 className='subheading'> Java </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={cImg} alt='c-file-icon'></img>
+                                    <Img effect='opacity'   className='icon-img' src={cImg} alt='c-file-icon'></Img>
                                     <h6 className='subheading'> C </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={cplusImg} alt='c++-logo'></img>
+                                    <Img effect='opacity'   className='icon-img' src={cplusImg} alt='c++-logo'></Img>
                                     <h6 className='subheading'> C++ </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={gitImg} alt='github-logo'></img>
+                                    <Img effect='opacity'   className='icon-img' src={gitImg} alt='github-logo'></Img>
                                     <h6 className='subheading'> GitHub </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={vsImg} alt='VScode-logo'></img>
+                                    <Img effect='opacity'   className='icon-img' src={vsImg} alt='VScode-logo'></Img>
                                     <h6 className='subheading'> VS Code </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={unityImg} alt='unity-logo'></img>
+                                    <Img effect='opacity'   className='icon-img' src={unityImg} alt='unity-logo'></Img>
                                     <h6 className='subheading'> Unity </h6>
                                 </div>
                                 <div className='skill skill-icon'> 
-                                    <img className='icon-img' src={plasticImg} alt='plastic-logo'></img>
+                                    <Img effect='opacity'   className='icon-img' src={plasticImg} alt='plastic-logo'></Img>
                                     <h6 className='subheading'> plasticScm </h6>
                                 </div>
                             </ul>}
