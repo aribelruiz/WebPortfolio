@@ -93,39 +93,6 @@
 
 }
 
-/* About Page */
-
-.about-me {
-    background-color: rgb(198, 198, 198);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5%;
-    height: fit-content;
- }
-
- .about-img {
-    width: 40%;
- }
-
-
-.about-txt {
-    background-color: rgb(252, 252, 252);
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    padding: 5%;
-    margin: 2%;
-    border-radius: 10px;
-}
-
-.about-txt h5 {
-    font-size: large;
-}
-
 @media only screen and (max-width: 600px) {
 
     /* General CSS */
@@ -153,18 +120,5 @@
 
     .resume-btn {
         width: 100%;
-    }
-
-    /* About Me CSS */
-
-    .about-me {
-        flex-direction: column;
-        padding: 5%;
-    }
-
-    .about-txt {
-        padding: 4%;
-        height: fit-content;
-        width: 85%;
     }
 }
