@@ -54,6 +54,8 @@ const Projects = () => {
         console.log(isIntersecting);
         observer.observe(ref.current);
         return () => observer.disconnect();
+
+        //eslint-disable-next-line
     }, []);
 
     // When element comes into view, display element animation
