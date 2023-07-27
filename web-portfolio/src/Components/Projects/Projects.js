@@ -38,10 +38,10 @@ const Projects = () => {
         <div className="projects">
             <div className="projects-div">
                 <div className="projects-header">
-                    <h1 className="heading header-underline">Projects</h1>
+                    <h1 className="heading header-underline">Previous Projects</h1>
                 </div>
                 <div className="projects-body">
-                    <h4 style={{textAlign:"left", paddingTop: "0px", color: 'black'}} className="projects-heading2 subheading">Below are some of my projects:</h4>
+                    {/* <h4 style={{textAlign:"left", paddingTop: "0px", color: 'black'}} className="projects-heading2 subheading">Below are some of my projects:</h4> */}
                     <div className="project-list">
                         {ProjectList.map((project, index) => 
                             <div key={index} className='project-card-btn' onClick={() => setProject(project)}>

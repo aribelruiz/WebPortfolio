@@ -90,7 +90,7 @@ const Projects = () => {
                 </div>  
                 <div className="projects-footer">
                     <Link className='more-btn' to='/projects'> 
-                        <h4>See More Projects</h4>
+                        <h5 className="subheading">More Projects</h5>
                         <FontAwesomeIcon icon={["fas", "arrow-circle-right"]}/>
                     </Link>
                 </div>

@@ -63,6 +63,7 @@
     margin-top: 5%;
     column-gap: 10px;
     font-size: large;
+    /* border-radius: 30px; */
 }
 .resume-btn:hover{
     background-color: #155e99;
