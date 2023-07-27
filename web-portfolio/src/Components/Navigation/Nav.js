@@ -39,7 +39,7 @@ const Nav = () => {
                 <Link className='nav-item' to='/projects' onClick={() => {setExpandNavbar((prev) => !prev)}}>
                     <div className='nav-link'> Projects </div>
                 </Link>
-                <Link className='nav-item contact-btn' to='/contact' onClick={() => {setExpandNavbar((prev) => !prev)}}> 
+                <Link className='contact-btn' to='/contact' onClick={() => {setExpandNavbar((prev) => !prev)}}> 
                     <div className='nav-link'> Contact Me </div>
                 </Link>
             </div>

@@ -116,7 +116,7 @@
     .splash-page {
         /* background-color: orange; */
         flex-direction: column-reverse;
-        padding: 5%;
+        margin-top: 70px;
     }
 
     .resume-btn {
