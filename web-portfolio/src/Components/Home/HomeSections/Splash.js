@@ -6,7 +6,7 @@ import AribelResume from '../../Files/AribelResumeWeb.pdf';
 const Splash = () => {
     return (
         <>
-            <div className='home-div splash-page'>
+            <div className='home-div splash-page' id='splash'>
             <div className='splash-txt'>
                 <h1 className='heading'>Hi, I'm Aribel!</h1>
                 <h3  className='subheading'>Software Developer</h3>

@@ -27,9 +27,9 @@ const Nav = () => {
                 </button>
             </div>
             <div className='nav-body'>
-                <Link className='nav-item' to='/' onClick={() => {setExpandNavbar((prev) => !prev)}}> 
+                <HashLink className='nav-item' to='/#splash' onClick={() => {setExpandNavbar((prev) => !prev)}}> 
                     <div className='nav-link'> Home </div>
-                </Link>
+                </HashLink>
                 <HashLink className='nav-item' to='/#about-me' onClick={() => {setExpandNavbar((prev) => !prev)}}>
                     <div className='nav-link'> About Me </div>
                 </HashLink>
