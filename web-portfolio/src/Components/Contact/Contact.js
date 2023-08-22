@@ -13,7 +13,7 @@ const Contact = () => {
             <div className='contact-txt'>
                 <div className='contact-txt-header'>
                     <h1>Interested in hiring?</h1>
-                    <h2 className='subheading'>Get in touch</h2>
+                    <h2 className='subheading'>Get in touch!</h2>
                 </div>
                 <div className='contact-txt-body'>
                     <h4 className='contact-line'>
@@ -26,7 +26,7 @@ const Contact = () => {
                         LinkedIn:  
                         <a href='https://www.linkedin.com/in/aribel-ruiz/' target="_blank" rel="noreferrer noopener">linkedin.com/in/aribel-ruiz/</a>    
                     </h4>
-                    <a className='resume-btn' href={AribelResume} download>
+                    <a className='splash-btn' href={AribelResume} download>
                         My Resume
                         <FontAwesomeIcon className='btn-icon' icon={['fas', 'file']}/>
                     </a>

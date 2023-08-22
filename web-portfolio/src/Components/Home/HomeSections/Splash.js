@@ -1,9 +1,9 @@
 import React from 'react';
 import profile from '../../../Images/aribelProfile.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import AribelResume from '../../Files/AribelResumeWeb.pdf';
 
 const Splash = () => {
+
     return (
         <>
             <div className='home-div splash-page' id='splash'>
@@ -13,9 +13,8 @@ const Splash = () => {
                 <h5  className='txt-body'>
                     #WomanInSTEM with a passion for software engineering, front-end development, and education.
                 </h5>
-                <a className='resume-btn' href={AribelResume} download>
-                    <div> My Resume </div>
-                    <FontAwesomeIcon className='btn-icon' icon={['fas', 'file']}/>
+                <a className='splash-btn' href="/contact">
+                    <div> Contact Me </div>
                 </a>
                 <div className='splash-socials'>
                     <a href='https://www.linkedin.com/in/aribel-ruiz/' target="_blank" rel="noreferrer noopener">
