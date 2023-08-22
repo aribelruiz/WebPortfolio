@@ -1,3 +1,4 @@
+$portBlue: #208ae1;
 
 /* About Page */
 
@@ -18,7 +19,9 @@
 }
 
 .about-img {
+    background: linear-gradient(#c8c8c8, #ffffff);;
     width: 40%;
+    border-radius: 50% 50% 0% 50%;
 
 }
 

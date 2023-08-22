@@ -27,6 +27,7 @@
 }
 
 .logo-img {
+    background: linear-gradient(#c8c8c8, #ffffff);;
     width: 100%;
     border-width: 2px;
     border-radius: 40px;
@@ -50,7 +51,7 @@
     padding: 10% 5% 10% 10%;
 }
 
-.resume-btn{
+.splash-btn{
     background-color: #208ae1;
     color: white;
     min-width: 70%;
@@ -65,7 +66,7 @@
     font-size: large;
     /* border-radius: 30px; */
 }
-.resume-btn:hover{
+.splash-btn:hover{
     background-color: #155e99;
     text-decoration: underline;
 }
@@ -119,7 +120,7 @@
         margin-top: 70px;
     }
 
-    .resume-btn {
+    .splash-btn {
         width: 100%;
     }
 }
