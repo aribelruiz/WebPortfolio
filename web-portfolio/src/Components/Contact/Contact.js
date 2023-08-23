@@ -27,7 +27,7 @@ const Contact = () => {
                         <a href='https://www.linkedin.com/in/aribel-ruiz/' target="_blank" rel="noreferrer noopener">linkedin.com/in/aribel-ruiz/</a>    
                     </h4>
                     <a className='splash-btn' href={AribelResume} download>
-                        My Resume
+                        Download My Resume
                         <FontAwesomeIcon className='btn-icon' icon={['fas', 'file']}/>
                     </a>
                 </div>
