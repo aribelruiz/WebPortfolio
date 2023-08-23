@@ -61,6 +61,7 @@ export const ProjectList = [
         slides: bbSlides,
         tagline: "Music Sharing Platform",
         role: "Front-End Developer",
+        timeline: 'Sep 2022 - May 2023',
         description: "Version 4 of a music sharing web app built for converting brain activity" +
         " into Musical Instrument Digital Interface files (MIDI).",
         contributions: "Modularized the previous front-end system• Wrote extensive documentation for future developers" +
@@ -75,6 +76,7 @@ export const ProjectList = [
         slides: epiSlides,
         tagline: "Seizure Tracking Application",
         role: "Front-End Developer",
+        timeline: 'Feb 2022 - May 2022',
         description: "A mobile and web application allowing users to track and view the correlation between their seizures and related medications." +
         " Epilapse also allows users to share their information with registered caretakers linked to their account.",
         contributions: "Designed and implemented Web/Mobile UI/UX" +
@@ -90,6 +92,7 @@ export const ProjectList = [
         slides: lldSlides,
         tagline: "Action/Adventure Video Game",
         role: "Full-Stack Developer",
+        timeline: 'Jan 2022 - May 2022',
         description: "A single player 2.5D action/adventure game developed on Unity for PC. This game was awarded Best Technical Video Game for UCF's AI for Game Programming Course in Spring 2022. ",
         contributions: "Led developers for Enemy AI and weapon systems" +
         "•  Programmed enemy path finding, enemy decay system, weapons, and enemy response to weapons" + 
@@ -104,6 +107,7 @@ export const ProjectList = [
         slides: portSlides,
         tagline: "My Personal Web Porfolio",
         role: "Web Developer",
+        timeline: 'Jun 2023 - Present',
         description: "A ReactJS web application for displaying my personal skills and projects.",
         contributions: "Designed and developed UI/UX• Implemented UI/UX as functional components" + 
         "• Developed and deployed my personal web application• Ensured responsive UI across multiple devices and browsers",
@@ -117,6 +121,7 @@ export const ProjectList = [
         slides: taSlides,
         tagline: "Multi-Threaded Text Analyzer",
         role: "Java Developer",
+        timeline: 'Feb 2023 - Apr 2023',
         description: "A multi-threaded implementation of a text analyzer in Java that filters the most common words in large volumes" + 
         " of text to identify key themes and create better context of literature.",
         contributions: "Worked alongside other developers to design and implement a multi-threaded solution to a problem" +
@@ -132,6 +137,7 @@ export const ProjectList = [
         slides: cmSlides,
         tagline: "Contact Manager Web Application",
         role: "Front-End Developer",
+        timeline: 'Jan 2022 - Feb 2022',
         description: "A web application allowing registered users to add, store, search, and delete contact information as well as edit their.",
         contributions: "Designed and developed the UI/UX " +
         "• Implemented UI/UX as functional components using HTML/CSS and JavaScript" + 
