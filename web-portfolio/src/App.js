@@ -2,6 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './Components/Helpers/ScrollToTop';
 import Nav from './Components/Navigation/Nav'
 import Footer from './Components/Footer/Footer';
 
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop/>
         <Nav/>
         <Routes>
           <Route exact path='/' element={<Home/>}/>

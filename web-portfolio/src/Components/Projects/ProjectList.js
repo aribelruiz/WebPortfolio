@@ -54,6 +54,13 @@ for (let i = 0; i < Object.keys(cmImgs).length; i++) {
     cmSlides[i] = img;
 }
 
+// Importing RealEstate slide images
+const nateImgs = importAll(require.context('../../Images/Projects/RealEstate', false, /\.(png|jpe?g|svg)$/));
+let nateSlides = [];
+for (let i = 0; i < Object.keys(nateImgs).length; i++) {
+    let img = nateImgs[`nate${i+1}.png`];
+    nateSlides[i] = img;
+}
 export const ProjectList = [
     {
         name: "Brain Beats V4",
@@ -64,9 +71,56 @@ export const ProjectList = [
         timeline: 'Sep 2022 - May 2023',
         description: "Version 4 of a music sharing web app built for converting brain activity" +
         " into Musical Instrument Digital Interface files (MIDI).",
-        contributions: "Modularized the previous front-end system• Wrote extensive documentation for future developers" +
-        "• Designed and implemented functional UI/UX• Worked alongside backend developers to implement API endpoints and integrate Unsplash API",
+        contributions: "Modularized and refactored 9000+ lines of legacy code written in JavaScript and converted codebase to TypeScript• Wrote extensive documentation for future developers" +
+        "• Contributed to 90% of frontend components and 95% of UI/UX within an agile environment in response to sponsor feedback• Worked alongside backend developers to integrate new features through external API endpoints and update internal API system",
         projectLink: "https://github.com/Brainbeats-v4/BrainBeatsv4",
+        github: true,
+        viewProject: false
+    },
+    {
+        name: "Sold By Nate",
+        img: nateSlides[5],
+        slides: nateSlides,
+        tagline: "Realtor Portfolio/Blog Website",
+        role: "Front-End Developer",
+        timeline: 'Oct 2023 - Oct 2023',
+        description: "Freelance project containing a portfolio website, contact information, and a blog for a realtor to expand his platform and be easily available on both desktop and mobile." +
+        "",
+        contributions: "Communicated with a client to gather requirements, develop use case diagrams, and design the UI/UX with client feedback and approval• Developed the front-end within sprints using Agile development alongside a back-end developer" +
+        "• Created reusable components within React using JavaScript, HTML, and SCSS.• Implemented a Django REST Framework to create functional frontend components",
+        projectLink: "https://soldbynate-c5d4c3489c09.herokuapp.com/home",
+        github: false,
+        viewProject: true
+    },
+    {
+        name: "Long Live Decay",
+        img: lldSlides[0],
+        slides: lldSlides,
+        tagline: "Action/Adventure Video Game",
+        role: "Full-Stack Developer",
+        timeline: 'Jan 2022 - May 2022',
+        description: "A single player 2.5D action/adventure game developed on Unity for PC. This game was awarded Best Technical Video Game for UCF's AI for Game Programming Course in Spring 2022. ",
+        contributions: "Led developers for Enemy AI and weapon systems" +
+        "• Programmed and enhanced Enemy AI/Decay System through state machines and path finding in response to Beta testing" + 
+        "• Developed player inventory UI/UX and state management• Implemented animation, interactable elements, and sound• Collaborated with other developers to find solutions to problems that arose in our application" 
+        + "• Pitched and presented a game concept alongside a team of developers",
+        projectLink: "https://spiderfoxproductions.itch.io/long-live-decay",
+        github: false,
+        viewProject: true
+    },
+    {
+        name: "Text Analyzer",
+        img: taSlides[0],
+        slides: taSlides,
+        tagline: "Multi-Threaded Text Analyzer",
+        role: "Java Developer",
+        timeline: 'Feb 2023 - Apr 2023',
+        description: "A multi-threaded implementation of a text analyzer in Java that filters the most common words in large volumes" + 
+        " of text to identify key themes and create better context of literature.",
+        contributions: "Implemented Parser threads that returned a ConcurrentHashMap with each unique word mapped to its count in the text file" +
+        "• Designed Analyzer threads to collect data and identify text themes• Collaborated with other developers to resolve race conditions" + 
+        "• Evaluated and improved solution results• Wrote a research paper explaining our implementation and evaluating our solution",
+        projectLink: "https://github.com/aribelruiz/MultiThreaded-TextAnalyzer",
         github: true,
         viewProject: false
     },
@@ -87,21 +141,6 @@ export const ProjectList = [
         viewProject: false
     },
     {
-        name: "Long Live Decay",
-        img: lldSlides[0],
-        slides: lldSlides,
-        tagline: "Action/Adventure Video Game",
-        role: "Full-Stack Developer",
-        timeline: 'Jan 2022 - May 2022',
-        description: "A single player 2.5D action/adventure game developed on Unity for PC. This game was awarded Best Technical Video Game for UCF's AI for Game Programming Course in Spring 2022. ",
-        contributions: "Led developers for Enemy AI and weapon systems" +
-        "•  Programmed enemy path finding, enemy decay system, weapons, and enemy response to weapons" + 
-        "• Developed UI/UX for player inventory• Pitched and presented a game concept alongside a team of developers",
-        projectLink: "https://spiderfoxproductions.itch.io/long-live-decay",
-        github: false,
-        viewProject: true
-    },
-    {
         name: "Aribel's Porfolio",
         img: portSlides[0],
         slides: portSlides,
@@ -112,22 +151,6 @@ export const ProjectList = [
         contributions: "Designed and developed UI/UX• Implemented UI/UX as functional components" + 
         "• Developed and deployed my personal web application• Ensured responsive UI across multiple devices and browsers",
         projectLink: "https://github.com/aribelruiz/WebPortfolio",
-        github: true,
-        viewProject: false
-    },
-    {
-        name: "Text Analyzer",
-        img: taSlides[0],
-        slides: taSlides,
-        tagline: "Multi-Threaded Text Analyzer",
-        role: "Java Developer",
-        timeline: 'Feb 2023 - Apr 2023',
-        description: "A multi-threaded implementation of a text analyzer in Java that filters the most common words in large volumes" + 
-        " of text to identify key themes and create better context of literature.",
-        contributions: "Worked alongside other developers to design and implement a multi-threaded solution to a problem" +
-        "• Developed separate parser and analyzer threads for an improved implementation" + 
-        "• Evaluated and improved solution results• Wrote a research paper explaining our implementation and evaluating our solution",
-        projectLink: "https://github.com/aribelruiz/MultiThreaded-TextAnalyzer",
         github: true,
         viewProject: false
     },
